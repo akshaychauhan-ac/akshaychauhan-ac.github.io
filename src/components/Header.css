@@ -1,0 +1,46 @@
+.header {
+  position: relative;
+  background-color: #1f2640;
+  padding: 15px 0;
+}
+
+.header img {
+  margin-left: 10%;
+  width: 9rem;
+}
+
+.localeSelect {
+  position: absolute;
+  width: 9rem;
+  height: 2rem;
+  right: 9rem;
+  top: 1.2rem;
+  outline: none;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 850px) {
+  .header img {
+    width: auto;
+    height: 30px;
+  }
+
+  .localeSelect {
+    height: 35px;
+    right: 20px;
+    top: 12px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .header img {
+    margin-left: 20px;
+  }
+
+  .localSelect {
+    width: 8rem;
+    height: 25px;
+    right: 12px;
+    top: 18px;
+  }
+}
