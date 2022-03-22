@@ -1,6 +1,6 @@
 {
-  "homepage": "https://akshaychauhan-ac.github.io/akshaychauhan-ac.github.io",
-  "name": "frontend-developer-challenge",
+  "homepage": "https://akshaychauhan-ac.github.io/bluestacks",
+  "name": "bluestacks-developer-challenge",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,10 +10,6 @@
     "build-dev": "webpack --mode=development",
     "build": "webpack --mode=production",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/akshaychauhan-ac/akshaychauhan-ac.github.io.git"
   },
   "devDependencies": {
     "@babel/core": "^7.17.8",
